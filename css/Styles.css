@@ -1,0 +1,289 @@
+article:hover{
+  background-color: grey;
+}
+body
+{
+  background-color: rgb(252, 239, 223);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+  background-color: #da291c;
+  padding: 5px;
+  border:1px ;
+  border-radius:  5px;
+  text-align: center;
+}
+
+/*Code for extra small sized Screen */
+@media (min-width:320px)
+{
+
+  .col_detail {
+    column-count: 1;
+    column-rule: 0.0625em solid transparent; 
+    font: black;
+    width: 70em;
+    vertical-align:top;
+   }
+   .header1{
+    width:50%;
+    height:40%;
+    left:-3%;
+    position:fixed;
+    background-image: linear-gradient(#da291c, #d92417);
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+  }
+  nav ul li {
+
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+}
+nav ul li a {
+
+  color: white;
+  font-size: 32px;
+  text-decoration:solid;
+  font-weight: bold;
+}
+article h1 {
+	padding:0.3125em;
+	border-left:0.3125em solid #333;    
+}
+body{
+  font-size: 100%;
+}
+html, body {
+width: 95%;
+margin: 0 auto;
+padding: 0;
+}
+nav{
+  background-color: #da291c;
+
+  border:1px ;
+  border-radius:  5px;
+}
+
+nav ul{
+font-size: 1em ;
+
+}
+form {
+  width: 25%;
+}
+
+article {
+padding:0.3125em;
+display:inline-block;
+}
+}
+
+
+
+/*Code for Small sized Screen */
+@media (min-width:576px)
+{
+
+  .col_detail {
+    column-count: 2;
+    column-rule: 0.0625em solid transparent; 
+    font: black;
+    width: 70em;
+    vertical-align:top;
+   }
+   .header1{
+    width:50%;
+    height:40%;
+    left:-3%;
+    position:fixed;
+    background-image: linear-gradient(#da291c, #d92417);
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+  }
+  nav ul li {
+
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+}
+nav ul li a {
+
+  color: white;
+  font-size: 32px;
+  text-decoration:solid;
+  font-weight: bold;
+}
+article h1 {
+	padding:0.3125em;
+	border-left:0.3125em solid #333;    
+}
+body{
+  font-size: 100%;
+}
+html, body {
+width: 95%;
+margin: 0 auto;
+padding: 0;
+}
+nav{
+  border:1px ;
+  border-radius:  5px;
+}
+
+nav ul{
+font-size: 1em ;
+
+}
+
+article {
+padding:0.3125em;
+display:inline-block;
+}
+aside{
+  border: 1px solid rgb(199, 64, 64);
+  float: right;
+  width: 18%;
+}
+
+
+
+/*Code for Medium sized Screen */
+}
+@media (min-width:768px)
+{
+  .col_detail {
+    column-count: 2;
+    column-rule: 0.0625em solid transparent; 
+    font: black;
+    width: 70em;
+    vertical-align:top;
+   }
+   .header1{
+    width:50%;
+    height:40%;
+    left:-3%;
+    position:fixed;
+    background-image: linear-gradient(#da291c, #d92417);
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+  }
+  nav ul li {
+
+    list-style-type: none;
+    display: inline;
+
+    text-decoration: none;
+}
+nav ul li a {
+
+  color: white;
+  font-size: 32px;
+  text-decoration:solid;
+  font-weight: bold;
+}
+article h1 {
+	padding:0.3125em;
+	border-left:0.3125em solid #333;    
+}
+body{
+  font-size: 100%;
+}
+html, body {
+width: 95%;
+margin: 0 auto;
+padding: 0;
+}
+nav{
+  background-color: #da291c;
+  border:1px ;
+  border-radius:  5px;
+}
+
+nav ul{
+font-size: 1em ;
+
+}
+
+article {
+padding:0.3125em;
+display:inline-block;
+}
+}
+  /*Code for full sized Screen */
+
+@media (min-width:968px)
+{
+  .col_detail {
+    column-count: 3;
+    font: black;
+    width: 90em;
+    vertical-align:top;
+    padding: 10px;
+   }
+ 
+  
+  .header1{
+    width:50%;
+    height:40%;
+    left:3%;
+    background-color: #da291c;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+  }
+  nav ul li {
+
+    list-style-type: none;
+    border-color: #333;
+    text-decoration: none;
+}
+nav ul li a {
+
+  color: white;
+  font-size: 48px;
+  text-decoration:solid;
+  font-weight: bold;
+}
+article h1 {
+	padding:0.3125em;
+	border-left:0.3125em solid #333;    
+}
+body{
+  font-size: 100%;
+}
+html, body {
+width: 95%;
+margin: 0 auto;
+padding: 0;
+}
+nav{
+  background-color: #da291c;
+  border:1px ;
+  border-radius:  5px;
+}
+
+nav ul{
+font-size: 1em ;
+
+}
+
+article {
+padding:0.3125em;
+display:inline-block;
+}
+}
+
+
+small{
+  float:inline-start;
+}
